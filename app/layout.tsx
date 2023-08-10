@@ -23,10 +23,9 @@ export default function RootLayout({
               <div className="max-w-6xl mx-auto flex justify-between items-center">
                   <div className="text-white text-lg font-semibold">Uzay Toprak</div>
                   <div className="space-x-4">
-                      <Link href="/" className="text-gray-300 hover:text-white">Home</Link>
-                      <Link href="/blog" className="text-gray-300 hover:text-white">Blog</Link>
-                      <Link href="#" className="text-gray-300 hover:text-white">Services</Link>
-                      <Link href="/contact" className="text-gray-300 hover:text-white">Contact</Link>
+                      <Link href={"/"} className="text-gray-300 hover:text-white">Home</Link>
+                      <Link href={"/blog"} className="text-gray-300 hover:text-white">Blog</Link>
+                      <Link href={"/contact"} className="text-gray-300 hover:text-white">Contact</Link>
                   </div>
               </div>
           </nav>
